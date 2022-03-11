@@ -1,0 +1,27 @@
+.loginWrap{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginTitle{
+    font-size: 30px;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.login-form {
+    width: 400px;
+    text-align: center;
+}
+.login-form-button{
+    margin-top: 20px;
+    width: 150px;
+}
